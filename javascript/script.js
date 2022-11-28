@@ -75,7 +75,7 @@ function getLatLon(local) {
         }
     }
 
-    var myLocation = "http://api.openweathermap.org/geo/1.0/direct?q=" + loc + "&limit=5&appid=4a2db2ccc383cc9b2720b3f82486d37d"
+    var myLocation = "https://api.openweathermap.org/geo/1.0/direct?q=" + loc + "&limit=5&appid=4a2db2ccc383cc9b2720b3f82486d37d"
     console.log(myLocation)
     fetch(myLocation)
         .then(response => response.json())
